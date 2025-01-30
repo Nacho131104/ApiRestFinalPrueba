@@ -23,7 +23,7 @@ const server = new ApolloServer({
   typeDefs: schema,
   resolvers,
 });
-//sffmsnfw
+
 const { url } = await startStandaloneServer(server, {
   context: async () => ({ ContactosCollection }),
 });
