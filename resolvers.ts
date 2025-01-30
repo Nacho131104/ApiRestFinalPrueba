@@ -1,7 +1,7 @@
 export  const resolvers ={
     
     Query:{
-        default:(): string =>{ return "Perrito"}
+        default:(): string =>{ return "Perrito tus muertos"}
     }
     
 }
